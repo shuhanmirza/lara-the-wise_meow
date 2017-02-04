@@ -23,14 +23,14 @@ import wise_meow.WiseMeow;
  *
  * @author shuhan
  */
-public class DisplayEasy extends javax.swing.JFrame {
+public class lara_the_wise_gui extends javax.swing.JFrame {
 
     /**
      * Creates new form DisplayEasy
      */
     int flg = 0;
 
-    public DisplayEasy() {
+    public lara_the_wise_gui() {
         initComponents();
         OutputField.append("Lara:\n Hi I am lara . I am a wise meow . I am going to be a intelectual partner of you :D \n\n");
         OutputField.append("YOU:\n");
@@ -81,7 +81,7 @@ public class DisplayEasy extends javax.swing.JFrame {
                         S = "Thank you wise human :D";
                         flg = 0;
                     } catch (IOException ex) {
-                        Logger.getLogger(DisplayEasy.class.getName()).log(Level.SEVERE, null, ex);
+                        Logger.getLogger(lara_the_wise_gui.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 } else {
 
@@ -99,7 +99,7 @@ public class DisplayEasy extends javax.swing.JFrame {
                             flg = 1;
 
                         } catch (IOException ex1) {
-                            Logger.getLogger(DisplayEasy.class.getName()).log(Level.SEVERE, null, ex1);
+                            Logger.getLogger(lara_the_wise_gui.class.getName()).log(Level.SEVERE, null, ex1);
                         }
                     }
                 }
@@ -165,20 +165,20 @@ public class DisplayEasy extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(DisplayEasy.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(lara_the_wise_gui.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(DisplayEasy.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(lara_the_wise_gui.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(DisplayEasy.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(lara_the_wise_gui.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(DisplayEasy.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(lara_the_wise_gui.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new DisplayEasy().setVisible(true);
+                new lara_the_wise_gui().setVisible(true);
             }
         });
     }
